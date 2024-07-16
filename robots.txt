@@ -1,0 +1,7 @@
+# Don't allow wp-admin
+User-agent: *
+Disallow: /wp-admin/
+
+# Don't allow web crawlers to index Craft CMS
+User-agent: *
+Disallow: /craft/
